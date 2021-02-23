@@ -56,13 +56,13 @@ gitignore-cleaner -h
 gitignore-cleaner -p repos -g CSharp.gitignore -i *.sln -i *.csproj -y
 ```
 
-## Contributing
-
-Feel free to contact me or open a pull-request if you have some improvements in your mind, or if you found a bug.
-
 ## Safety
 
 This program is done **for deleting stuff**, if used wrongly it can delete stuff that you don't want deleted, so be sure to use it wisely, and if you want to use the batch mode, possibly do a dry-run before that, so you can be sure you are not deleting anything important.
+
+## Contributing
+
+Feel free to contact me or open a pull-request if you have some improvements in your mind, or if you found a bug.
 
 ## Authors
 
