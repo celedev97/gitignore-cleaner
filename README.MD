@@ -12,7 +12,7 @@ Git has a super useful feature called [git clean](https://git-scm.com/docs/git-c
 
 So i tought "hey why can't i just clean every repo with git clean?" but i soon realized that not every project i had was a git repository, so it was pretty much impossible to clean them all unless i would have manually git initialized them all, added a `.gitignore`, staged the files and then used `git clean`.
 
-This litte utility comes from my necessity to clean up a large amount of projects without the need to have them being git repositories.
+This little utility comes from my necessity to clean up a large amount of projects without the need to have them being git repositories.
 
 It find projects that have file matching a pattern and then clean them by matching their file with a `.gitignore` file.
 
@@ -20,7 +20,7 @@ It find projects that have file matching a pattern and then clean them by matchi
 
 ### Installation
 
-To get this utility installed, you can simply run
+To get this utility installed you need goland installed, then you can simply run:
 
 ```bash
 go get github.com/fcdev/gitignore-cleaner
